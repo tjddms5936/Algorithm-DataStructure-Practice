@@ -5,7 +5,7 @@
 
 void insertSortLogic(int* pData, int nLength, int nInsertData);
 void insertSort(int* pData, int nLength);
-void printData(int* pData, int nLength);
+void printData(const int* pData, int nLength);
 
 int main()
 {
@@ -54,7 +54,7 @@ void insertSort(int* pData, int nLength)
 
 }
 
-void printData(int* pData, int nLength)
+void printData(const int* pData, int nLength)
 {
     for (int i = 0; i < nLength; i++)
     {
